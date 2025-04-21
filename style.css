@@ -1,0 +1,47 @@
+body {
+  scroll-behavior: smooth;
+}
+  
+.navbar-nav .nav-link.active {
+  color: #0d6efd !important;
+  border-bottom: 2px solid #0d6efd;
+}
+
+section{
+  padding: 80px 0;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.section-divider {
+  height: 2px;
+  width: 60px;
+  background-color: #0d6efd;
+  margin: 0 auto 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill-card {
+  transition: transform 0.3s ease;
+}
+  
+.skill-card:hover {
+  transform: scale(1.1);
+}
+  
+.skill-icon {
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.project-card img{
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.15);
+}

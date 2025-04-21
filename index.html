@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ryan's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("0ct4331YVftbwK1-0");
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm" id="navbar">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="#home">Ryan's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-5 mt-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="fw-bold">Hi, I'm <span class="text-primary">Muhamad Ryan Arsyad</span></h1>
+            <p class="lead">I am an enthusiastic web developer with a keen interest in both front-end and back-end technologies.</p>
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="images/pas-foto-white.png" alt="Ryan Arsyad" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">About Me</h2>
+            <div class="section-divider"></div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <h3 class="fw-bold">Who am I?</h3>
+            <p>I have a background in Information Technology with a focus on Software Engineering. Skilled in building web applications using HTML, CSS, JavaScript, Java, and PHP, and managing databases with MySQL.</p>
+            <p>In addition to technical skills, I’m also experienced in critical thinking, problem solving, and team collaboration. I’m always eager to grow by exploring new technologies and working on real-world projects.</p>
+            <a href="resume/CV Muhamad Ryan Arsyad.pdf" class="btn btn-primary ">Resume</a>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="fw-bold">Personal info</h3>
+            <p><span class="">Name:</span> Muhamad Ryan Arsyad</p>
+            <p><span class="">Email:</span> muhamad.ryanarsyad@gmail.com</p>
+            <p><span class="">Phone:</span> 0857113983585</p>
+            <p><span class="">Location:</span> Jakarta, Indonesia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+      <div class="container text-center">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">My Skills</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="row justify-content-center g-4 mb-5">
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/html-logo.webp" alt="HTML" class="img-fluid skill-icon">
+              <p class="mt-2">HTML</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/css-logo.jpg" alt="CSS" class="img-fluid skill-icon">
+              <p class="mt-2">CSS</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/javascript-logo.webp" alt="JavaScript" class="img-fluid skill-icon">
+              <p class="mt-2">JavaScript</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/bootstrap.jpg" alt="Bootstrap" class="img-fluid skill-icon">
+              <p class="mt-2">Bootstrap</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center g-4">
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/java-logo.webp" alt="Java" class="img-fluid skill-icon">
+              <p class="mt-2">Java</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/nodejs-icon.webp" alt="Node.js" class="img-fluid skill-icon">
+              <p class="mt-2">Node.js</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/php-logo.webp" alt="php" class="img-fluid skill-icon">
+              <p class="mt-2">PHP</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/laravel-logo.jpg" alt="Laravel" class="img-fluid skill-icon">
+              <p class="mt-2">Laravel</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="skill-card">
+              <img src="images/codeigniter-logo.webp" alt="CodeIgniter" class="img-fluid skill-icon">
+              <p class="mt-2">CodeIgniter</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">My Project</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-md-6 mb-4">
+            <div class="card project-card">
+              <img src="images/MusicConcertTicket-WebApp.png" class="card-img-top" alt="MusicConcertTicket-WebApp" />
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0">Music Concert Ticket WebApp</h5>
+                <a href="https://github.com/RyanArsyad/MusicConcertTicket-WebApp" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-md-6 mb-4">
+            <div class="card project-card">
+              <img src="images/ShoesStore-WebApp.jpg" class="card-img-top" alt="ShoesStore-WebApp" />
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Shoes Store WebApp</h5>
+                <a href="https://github.com/RyanArsyad/ShoesStore-WebApp" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-md-6 mb-4">
+            <div class="card project-card">
+              <img src="images/PersonalFinancialRecords-Mobile.png" class="card-img-top" alt="PersonalFinancialRecords-Mobile" />
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Personal Financial Records Android</h5>
+                <a href="https://github.com/RyanArsyad/PersonalFinancialRecords-Application" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="col-md-6 mb-4">
+            <div class="card project-card">
+              <img src="images/Finote-PersonalFinancialRecords-Web.png" class="card-img-top" alt="LandingPageFinote-PersonalFinancialRecords-Web" />
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Landing Page Finote Personal Financial Records Web</h5>
+                <a href="https://github.com/RyanArsyad/Finote-PersonalFinancialRecords-Web" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Contact</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 mb-4">
+            <h4 class="fw-bold text-primary mb-3">Get in Touch</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <i class="fas fa-user fa-fw me-2 text-primary"></i>
+                <strong>Name:</strong> Muhamad Ryan Arsyad
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-map-marker-alt fa-fw me-2 text-primary"></i>
+                <strong>Location:</strong> Jakarta, Indonesia
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-envelope fa-fw me-2 text-primary"></i>
+                <strong>Email:</strong> muhamad.ryanarsyad@gmail.com
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-phone fa-fw me-2 text-primary"></i>
+                <strong>Phone:</strong> 0857113983585
+              </li>
+              
+              <li class="mb-3">
+                <i class="fab fa-github fa-fw me-2 text-primary"></i>
+                <strong>GitHub:</strong> <a href="https://github.com/RyanArsyad" target="_blank">RyanArsyad</a>
+              </li>
+              <li class="mb-3">
+                <i class="fab fa-linkedin fa-fw me-2 text-primary"></i>
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muhamad-ryan-arsyad-734b5334a/" target="_blank">Muhamad Ryan Arsyad</a>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Thank You!</strong> We have received your message.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form id="contact-form" class="mx-auto" style="max-width: 700px;">
+              <div class="mb-3">
+                <label for="name" class="form-label text-primary fw-bold">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-primary fw-bold">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label text-primary fw-bold">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject"/>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label text-primary fw-bold">Message</label>
+                <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim w-100">Send Message</button>
+
+              <button class="btn btn-primary btn-loading d-none w-100" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-5">
+      &copy; 2025 Muhamad Ryan Arsyad. All Rights Reserved.
+    </footer>
+
+    <!-- JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <script>
+      const form = document.getElementById("contact-form");
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+      
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // Show loading button
+        const btnKirim = document.querySelector(".btn-kirim");
+        const btnLoading = document.querySelector(".btn-loading");
+        
+        if (!form.name.value || !form.email.value || !form.subject.value || !form.message.value) {
+            alert('Please fill in all fields.');
+            btnLoading.classList.add('d-none');
+            btnKirim.classList.remove('d-none');
+            return;
+          }
+        btnKirim.classList.add("d-none");
+        btnLoading.classList.remove("d-none");
+
+        emailjs.sendForm('service_gxhfrmh', 'template_ssjycs5', this)
+          .then(() => {
+            btnKirim.classList.remove("d-none");
+            btnLoading.classList.add("d-none");
+            // Show alert
+            document.querySelector(".my-alert").classList.remove("d-none");
+            // Reset form
+            form.reset();
+          })
+          .catch((error) => {
+            btnKirim.classList.remove("d-none");
+            btnLoading.classList.add("d-none");
+            console.error("Email gagal dikirim:", error);
+            alert("Email gagal dikirim: " + (error.text || JSON.stringify(error)));
+          });
+      });
+    </script>
+  </body>
+</html>
